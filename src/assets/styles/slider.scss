@@ -1,0 +1,35 @@
+.slider-arrow {
+  @apply absolute z-[1] top-1/2 -translate-y-1/2 w-6 h-6 transition duration-300;
+}
+
+.slider-arrow svg path {
+  @apply fill-white;
+}
+
+.slider-arrow:disabled {
+  @apply opacity-30;
+}
+
+.slider-prev {
+  @apply -left-8 rotate-180;
+}
+
+.slider-next {
+  @apply -right-8;
+}
+
+.slider-pagination {
+  @apply flex flex-wrap items-center justify-center m-0 pointer-events-none absolute z-[1] -bottom-7 left-0 right-0;
+}
+
+.slider-pagination li {
+  @apply inline-block leading-none pointer-events-auto;
+}
+
+.slider-page {
+  @apply inline-block mx-1 w-2 h-2 rounded bg-white opacity-50 transition duration-300;
+}
+
+.slider-page.is-active {
+  @apply opacity-100;
+}

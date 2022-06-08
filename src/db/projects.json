@@ -1,0 +1,1000 @@
+{
+  "data": [{
+    "id": 1,
+    "attributes": {
+      "short_description": "«Ультратанк» — такое название получил очередной безумный проект Константина — люксовый Bentley Continental на гусеничном ходу. \nВ марте 2020 года принял участие в фестивале «Байкальская миля 2020» и был официально зафиксирован Книгой Рекордов России за наибольшую скорость, развитую на льду на гусеничном вездеходе на дистанции 1 миля (1,6 км) в России с результатом 125,7 км/ч.",
+      "name": "Bentley Ultratank",
+      "description": "«Ультратанк» — такое название получил очередной безумный проект Константина — люксовый Bentley Continental на гусеничном ходу. \nВ марте 2020 года принял участие в фестивале «Байкальская миля 2020» и был официально зафиксирован Книгой Рекордов России за наибольшую скорость, развитую на льду на гусеничном вездеходе на дистанции 1 миля (1,6 км) в России с результатом 125,7 км/ч.",
+      "youtube_id": "PLiCpP_44QZBwJO5NsC3Im6QBYj_JA2kn3",
+      "webcast": "https://www.youtube.com/playlist?list=PLiCpP_44QZBwJO5NsC3Im6QBYj_JA2kn3",
+      "quote": "Мы создали настоящее зло. Это Bentley Ultratank — настоящий Бентли на гусеницах. Он «валит» по любому типу покрытия и делает это с комфортом.\n-Константин Заруцкий",
+      "bg_preview": "https://i.ibb.co/r32vXMN/bg-project1.webp",
+      "bg_hero": "https://i.ibb.co/NyrX6cd/bg-inside.webp",
+      "bg_spec": "https://i.ibb.co/7GQZxCc/bg-spec.webp",
+      "slider": [
+        "https://i.ibb.co/RyHJPbd/image-1.jpg",
+        "https://i.ibb.co/NTQH355/image-2.jpg",
+        "https://i.ibb.co/vv7cSNB/image-3.jpg",
+        "https://i.ibb.co/17xP3N2/image-4.jpg",
+        "https://i.ibb.co/F8jCQBH/image-5.jpg",
+        "https://i.ibb.co/F0vJ5ZW/image-6.jpg",
+        "https://i.ibb.co/mchZjXX/image-7.jpg",
+        "https://i.ibb.co/47jqtzP/image-8.jpg",
+        "https://i.ibb.co/mFh2cwG/image-9.jpg",
+        "https://i.ibb.co/RCztZrJ/image-10.jpg"
+      ],
+      "gallery": [],
+      "specification": {
+        "data": {
+          "id": 1,
+          "attributes": {
+            "Efficiency": {
+              "id": 5,
+              "max_speed": 125,
+              "overclocking": null,
+              "fuel": 15,
+              "fuel_grade": "АИ-98"
+            },
+            "Engine": {
+              "id": 5,
+              "engine_type": "бензин",
+              "max_power_rpm": null,
+              "max_power_hp": 530,
+              "max_torque_nm": 700,
+              "max_torque_rpm": null
+            },
+            "Transmission": {
+              "id": 5,
+              "transmission": "автоматическая",
+              "gears": 5,
+              "drive": "задний"
+            },
+            "Dimensions": {
+              "id": 5,
+              "height": null,
+              "width": 2500,
+              "length": null,
+              "clearance": 590
+            },
+            "Payload": {
+              "id": 3,
+              "curb_weight": null,
+              "full_mass": 3100,
+              "fuel_tank": null
+            }
+          }
+        }
+      },
+      "hero_video": {
+        "webm": "https://www.dl.dropboxusercontent.com/s/h74jn7qiegjo21i/project1.webm?dl=0",
+        "mp4": "https://www.dl.dropboxusercontent.com/s/vsay8ygrm1eux17/project1.mp4?dl=0"
+      }
+    }
+  }, {
+    "id": 3,
+    "attributes": {
+      "short_description": "Если Вам по душе американские внедорожники в кузове пикап, то наверняка хорошо знакома модель Ford F-150 Raptor. Неутомимый Константин задумал построить настоящего «Русского Раптора» на базе удлинённого пикапа от Нивы. На внедорожник был поставлен V8 на 300 сил, а подвеска взята от Nissan Patrol.",
+      "name": "Русский Raptor",
+      "description": "Если Вам по душе американские внедорожники в кузове пикап, то наверняка хорошо знакома модель Ford F-150 Raptor. Неутомимый Константин задумал построить настоящего «Русского Раптора» на базе удлинённого пикапа от Нивы. На внедорожник был поставлен V8 на 300 сил, а подвеска взята от Nissan Patrol.",
+      "youtube_id": "PLiCpP_44QZByb_YMNNCujSkbEM4l54e-O",
+      "webcast": "https://www.youtube.com/playlist?list=PLiCpP_44QZByb_YMNNCujSkbEM4l54e-O",
+      "quote": "Родной кузов такого автомобиля по уровню своей жёсткости напоминает желе, а потому первым делом его пришлось как следует усилить с помощью интегрированной рамы.\n-Константин Заруцкий",
+      "bg_preview": "https://i.ibb.co/kD9GTbv/bg-project2.webp",
+      "bg_hero": "https://i.ibb.co/TwCYKf5/bg-inside.webp",
+      "bg_spec": null,
+      "slider": [
+        "https://i.ibb.co/yB3MVzM/image-1.jpg",
+        "https://i.ibb.co/tDpbgPF/image-2.jpg"
+      ],
+      "gallery": [],
+      "specification": {
+        "data": {
+          "id": 5,
+          "attributes": {
+            "Efficiency": null,
+            "Engine": null,
+            "Transmission": null,
+            "Dimensions": {
+              "id": 7,
+              "height": null,
+              "width": null,
+              "length": null,
+              "clearance": 320
+            },
+            "Payload": null,
+            "localizations": {
+              "data": [{
+                "id": 6,
+                "attributes": {
+                  "createdAt": "2022-05-28T15:26:06.012Z",
+                  "updatedAt": "2022-05-28T15:26:06.602Z",
+                  "publishedAt": "2022-05-28T15:26:06.597Z",
+                  "locale": "en",
+                  "name": "Русский Raptor",
+                  "project": {
+                    "data": {
+                      "id": 4,
+                      "attributes": {
+                        "locale": "en",
+                        "short_description": "Если Вам по душе американские внедорожники в кузове пикап, то наверняка хорошо знакома модель Ford F-150 Raptor. Неутомимый Константин задумал построить настоящего «Русского Раптора» на базе удлинённого пикапа от Нивы. На внедорожник был поставлен V8 на 300 сил, а подвеска взята от Nissan Patrol.",
+                        "name": "Русский Raptor",
+                        "description": "Если Вам по душе американские внедорожники в кузове пикап, то наверняка хорошо знакома модель Ford F-150 Raptor. Неутомимый Константин задумал построить настоящего «Русского Раптора» на базе удлинённого пикапа от Нивы. На внедорожник был поставлен V8 на 300 сил, а подвеска взята от Nissan Patrol.",
+                        "youtube_id": "PLiCpP_44QZByb_YMNNCujSkbEM4l54e-O",
+                        "webcast": "https://www.youtube.com/playlist?list=PLiCpP_44QZByb_YMNNCujSkbEM4l54e-O",
+                        "quote": "Родной кузов такого автомобиля по уровню своей жёсткости напоминает желе, а потому первым делом его пришлось как следует усилить с помощью интегрированной рамы. \n-Константин Заруцкий",
+                        "bg_preview": {
+                          "data": {
+                            "id": 28,
+                            "attributes": {
+                              "name": "bg_project2.jpg",
+                              "alternativeText": "bg_project2.jpg",
+                              "caption": "bg_project2.jpg",
+                              "width": 1920,
+                              "height": 1080,
+                              "formats": {
+                                "thumbnail": {
+                                  "name": "thumbnail_bg_project2.jpg",
+                                  "hash": "thumbnail_bg_project2_dc57e609cd",
+                                  "ext": ".jpg",
+                                  "mime": "image/jpeg",
+                                  "path": null,
+                                  "width": 245,
+                                  "height": 138,
+                                  "size": 4.61,
+                                  "url": "/uploads/thumbnail_bg_project2_dc57e609cd.jpg"
+                                },
+                                "large": {
+                                  "name": "large_bg_project2.jpg",
+                                  "hash": "large_bg_project2_dc57e609cd",
+                                  "ext": ".jpg",
+                                  "mime": "image/jpeg",
+                                  "path": null,
+                                  "width": 1000,
+                                  "height": 563,
+                                  "size": 55.11,
+                                  "url": "/uploads/large_bg_project2_dc57e609cd.jpg"
+                                },
+                                "medium": {
+                                  "name": "medium_bg_project2.jpg",
+                                  "hash": "medium_bg_project2_dc57e609cd",
+                                  "ext": ".jpg",
+                                  "mime": "image/jpeg",
+                                  "path": null,
+                                  "width": 750,
+                                  "height": 422,
+                                  "size": 32.68,
+                                  "url": "/uploads/medium_bg_project2_dc57e609cd.jpg"
+                                },
+                                "small": {
+                                  "name": "small_bg_project2.jpg",
+                                  "hash": "small_bg_project2_dc57e609cd",
+                                  "ext": ".jpg",
+                                  "mime": "image/jpeg",
+                                  "path": null,
+                                  "width": 500,
+                                  "height": 281,
+                                  "size": 15.48,
+                                  "url": "/uploads/small_bg_project2_dc57e609cd.jpg"
+                                }
+                              },
+                              "hash": "bg_project2_dc57e609cd",
+                              "ext": ".jpg",
+                              "mime": "image/jpeg",
+                              "size": 1110.47,
+                              "url": "/uploads/bg_project2_dc57e609cd.jpg",
+                              "previewUrl": null,
+                              "provider": "local",
+                              "provider_metadata": null,
+                              "createdAt": "2022-05-17T16:23:16.405Z",
+                              "updatedAt": "2022-05-17T16:23:16.405Z"
+                            }
+                          }
+                        },
+                        "bg_hero": {
+                          "data": {
+                            "id": 67,
+                            "attributes": {
+                              "name": "bg_inside.jpg",
+                              "alternativeText": "bg_inside.jpg",
+                              "caption": "bg_inside.jpg",
+                              "width": 1920,
+                              "height": 1080,
+                              "formats": {
+                                "thumbnail": {
+                                  "name": "thumbnail_bg_inside.jpg",
+                                  "hash": "thumbnail_bg_inside_17a3de4e37",
+                                  "ext": ".jpg",
+                                  "mime": "image/jpeg",
+                                  "path": null,
+                                  "width": 245,
+                                  "height": 138,
+                                  "size": 5.21,
+                                  "url": "/uploads/thumbnail_bg_inside_17a3de4e37.jpg"
+                                },
+                                "large": {
+                                  "name": "large_bg_inside.jpg",
+                                  "hash": "large_bg_inside_17a3de4e37",
+                                  "ext": ".jpg",
+                                  "mime": "image/jpeg",
+                                  "path": null,
+                                  "width": 1000,
+                                  "height": 563,
+                                  "size": 47.53,
+                                  "url": "/uploads/large_bg_inside_17a3de4e37.jpg"
+                                },
+                                "medium": {
+                                  "name": "medium_bg_inside.jpg",
+                                  "hash": "medium_bg_inside_17a3de4e37",
+                                  "ext": ".jpg",
+                                  "mime": "image/jpeg",
+                                  "path": null,
+                                  "width": 750,
+                                  "height": 422,
+                                  "size": 30.91,
+                                  "url": "/uploads/medium_bg_inside_17a3de4e37.jpg"
+                                },
+                                "small": {
+                                  "name": "small_bg_inside.jpg",
+                                  "hash": "small_bg_inside_17a3de4e37",
+                                  "ext": ".jpg",
+                                  "mime": "image/jpeg",
+                                  "path": null,
+                                  "width": 500,
+                                  "height": 281,
+                                  "size": 16.55,
+                                  "url": "/uploads/small_bg_inside_17a3de4e37.jpg"
+                                }
+                              },
+                              "hash": "bg_inside_17a3de4e37",
+                              "ext": ".jpg",
+                              "mime": "image/jpeg",
+                              "size": 1090.42,
+                              "url": "/uploads/bg_inside_17a3de4e37.jpg",
+                              "previewUrl": null,
+                              "provider": "local",
+                              "provider_metadata": null,
+                              "createdAt": "2022-05-26T20:39:57.580Z",
+                              "updatedAt": "2022-05-26T20:39:57.580Z"
+                            }
+                          }
+                        },
+                        "bg_spec": {
+                          "data": null
+                        },
+                        "slider": {
+                          "data": [{
+                            "id": 40,
+                            "attributes": {
+                              "name": "image_1.jpg",
+                              "alternativeText": "image_1.jpg",
+                              "caption": "image_1.jpg",
+                              "width": 280,
+                              "height": 140,
+                              "formats": {
+                                "thumbnail": {
+                                  "name": "thumbnail_image_1.jpg",
+                                  "hash": "thumbnail_image_1_104a84e2ce",
+                                  "ext": ".jpg",
+                                  "mime": "image/jpeg",
+                                  "path": null,
+                                  "width": 245,
+                                  "height": 123,
+                                  "size": 10.4,
+                                  "url": "/uploads/thumbnail_image_1_104a84e2ce.jpg"
+                                }
+                              },
+                              "hash": "image_1_104a84e2ce",
+                              "ext": ".jpg",
+                              "mime": "image/jpeg",
+                              "size": 61.98,
+                              "url": "/uploads/image_1_104a84e2ce.jpg",
+                              "previewUrl": null,
+                              "provider": "local",
+                              "provider_metadata": null,
+                              "createdAt": "2022-05-19T19:57:46.609Z",
+                              "updatedAt": "2022-05-19T19:57:46.609Z"
+                            }
+                          }, {
+                            "id": 41,
+                            "attributes": {
+                              "name": "image_2.jpg",
+                              "alternativeText": "image_2.jpg",
+                              "caption": "image_2.jpg",
+                              "width": 280,
+                              "height": 140,
+                              "formats": {
+                                "thumbnail": {
+                                  "name": "thumbnail_image_2.jpg",
+                                  "hash": "thumbnail_image_2_0d9554d5bc",
+                                  "ext": ".jpg",
+                                  "mime": "image/jpeg",
+                                  "path": null,
+                                  "width": 245,
+                                  "height": 123,
+                                  "size": 9.38,
+                                  "url": "/uploads/thumbnail_image_2_0d9554d5bc.jpg"
+                                }
+                              },
+                              "hash": "image_2_0d9554d5bc",
+                              "ext": ".jpg",
+                              "mime": "image/jpeg",
+                              "size": 62.6,
+                              "url": "/uploads/image_2_0d9554d5bc.jpg",
+                              "previewUrl": null,
+                              "provider": "local",
+                              "provider_metadata": null,
+                              "createdAt": "2022-05-19T19:57:46.617Z",
+                              "updatedAt": "2022-05-19T19:57:46.617Z"
+                            }
+                          }]
+                        },
+                        "gallery": {
+                          "data": null
+                        },
+                        "specification": {
+                          "data": {
+                            "id": 6,
+                            "attributes": {
+                              "createdAt": "2022-05-28T15:26:06.012Z",
+                              "updatedAt": "2022-05-28T15:26:06.602Z",
+                              "publishedAt": "2022-05-28T15:26:06.597Z",
+                              "locale": "en",
+                              "name": "Русский Raptor"
+                            }
+                          }
+                        },
+                        "hero_video": {
+                          "data": {
+                            "id": 74,
+                            "attributes": {
+                              "name": "webm.webm",
+                              "alternativeText": "webm.webm",
+                              "caption": "webm.webm",
+                              "width": null,
+                              "height": null,
+                              "formats": null,
+                              "hash": "webm_62aa68eba0",
+                              "ext": ".webm",
+                              "mime": "video/webm",
+                              "size": 11516,
+                              "url": "/uploads/webm_62aa68eba0.webm",
+                              "previewUrl": null,
+                              "provider": "local",
+                              "provider_metadata": null,
+                              "createdAt": "2022-05-28T16:16:46.918Z",
+                              "updatedAt": "2022-05-28T16:16:46.918Z"
+                            }
+                          }
+                        },
+                        "localizations": {
+                          "data": [{
+                            "id": 3,
+                            "attributes": {
+                              "locale": "ru",
+                              "short_description": "Если Вам по душе американские внедорожники в кузове пикап, то наверняка хорошо знакома модель Ford F-150 Raptor. Неутомимый Константин задумал построить настоящего «Русского Раптора» на базе удлинённого пикапа от Нивы. На внедорожник был поставлен V8 на 300 сил, а подвеска взята от Nissan Patrol.",
+                              "name": "Русский Raptor",
+                              "description": "Если Вам по душе американские внедорожники в кузове пикап, то наверняка хорошо знакома модель Ford F-150 Raptor. Неутомимый Константин задумал построить настоящего «Русского Раптора» на базе удлинённого пикапа от Нивы. На внедорожник был поставлен V8 на 300 сил, а подвеска взята от Nissan Patrol.",
+                              "youtube_id": "PLiCpP_44QZByb_YMNNCujSkbEM4l54e-O",
+                              "webcast": "https://www.youtube.com/playlist?list=PLiCpP_44QZByb_YMNNCujSkbEM4l54e-O",
+                              "quote": "Родной кузов такого автомобиля по уровню своей жёсткости напоминает желе, а потому первым делом его пришлось как следует усилить с помощью интегрированной рамы.\n-Константин Заруцкий"
+                            }
+                          }]
+                        }
+                      }
+                    }
+                  },
+                  "Efficiency": null,
+                  "Engine": null,
+                  "Transmission": null,
+                  "Dimensions": {
+                    "id": 8,
+                    "height": null,
+                    "width": null,
+                    "length": null,
+                    "clearance": 320
+                  },
+                  "Payload": null,
+                  "localizations": {
+                    "data": [{
+                      "id": 5,
+                      "attributes": {
+                        "createdAt": "2022-05-28T15:25:53.955Z",
+                        "updatedAt": "2022-05-28T15:26:06.623Z",
+                        "publishedAt": "2022-05-28T15:25:55.089Z",
+                        "locale": "ru",
+                        "name": "Русский Raptor",
+                        "project": {
+                          "data": {
+                            "id": 3,
+                            "attributes": {
+                              "locale": "ru",
+                              "short_description": "Если Вам по душе американские внедорожники в кузове пикап, то наверняка хорошо знакома модель Ford F-150 Raptor. Неутомимый Константин задумал построить настоящего «Русского Раптора» на базе удлинённого пикапа от Нивы. На внедорожник был поставлен V8 на 300 сил, а подвеска взята от Nissan Patrol.",
+                              "name": "Русский Raptor",
+                              "description": "Если Вам по душе американские внедорожники в кузове пикап, то наверняка хорошо знакома модель Ford F-150 Raptor. Неутомимый Константин задумал построить настоящего «Русского Раптора» на базе удлинённого пикапа от Нивы. На внедорожник был поставлен V8 на 300 сил, а подвеска взята от Nissan Patrol.",
+                              "youtube_id": "PLiCpP_44QZByb_YMNNCujSkbEM4l54e-O",
+                              "webcast": "https://www.youtube.com/playlist?list=PLiCpP_44QZByb_YMNNCujSkbEM4l54e-O",
+                              "quote": "Родной кузов такого автомобиля по уровню своей жёсткости напоминает желе, а потому первым делом его пришлось как следует усилить с помощью интегрированной рамы.\n-Константин Заруцкий"
+                            }
+                          }
+                        },
+                        "Efficiency": null,
+                        "Engine": null,
+                        "Transmission": null,
+                        "Dimensions": {
+                          "id": 7,
+                          "height": null,
+                          "width": null,
+                          "length": null,
+                          "clearance": 320
+                        },
+                        "Payload": null,
+                        "localizations": {
+                          "data": [{
+                            "id": 6,
+                            "attributes": {
+                              "createdAt": "2022-05-28T15:26:06.012Z",
+                              "updatedAt": "2022-05-28T15:26:06.602Z",
+                              "publishedAt": "2022-05-28T15:26:06.597Z",
+                              "locale": "en",
+                              "name": "Русский Raptor"
+                            }
+                          }]
+                        }
+                      }
+                    }]
+                  }
+                }
+              }]
+            }
+          }
+        }
+      },
+      "hero_video": {
+        "webm": "https://www.dl.dropboxusercontent.com/s/xuiks6k6efuswnb/project2.webm?dl=0",
+        "mp4": "https://www.dl.dropboxusercontent.com/s/rfv9kag18mf6r3w/project2.mp4?dl=0"
+      }
+    }
+  }, {
+    "id": 5,
+    "attributes": {
+      "short_description": "Проект начался в 2017 году, когда Константин приобрёл ЗИЛ-ММЗ-4502 1986 года выпуска. Первоначально была попытка модернизировать отечественный 6-литровый V8. Однако мощность оказалась не той, которая хотелась. Поэтому было принято радикальное решение: установить компрессор от 5-литрового Range Rover, доработанный в конце проекта до 600 сил.",
+      "name": "ЗИЛ 600 сил",
+      "description": "Проект начался в 2017 году, когда Константин приобрёл ЗИЛ-ММЗ-4502 1986 года выпуска. Первоначально была попытка модернизировать отечественный 6-литровый V8. Однако мощность оказалась не той, которая хотелась. Поэтому было принято радикальное решение: установить компрессор от 5-литрового Range Rover, доработанный в конце проекта до 600 сил.",
+      "youtube_id": "PLiCpP_44QZBxMJxUF9MHKkpweRnSNjWQr",
+      "webcast": "https://www.youtube.com/playlist?list=PLiCpP_44QZBxMJxUF9MHKkpweRnSNjWQr",
+      "quote": "...прокатившись на нем один раз в год, все равно заряжаешься невероятной энергетикой этой машины. Ощущение, что ты находишься в кино. И это я не готов променять ни на какие деньги.\n-Константин Заруцкий",
+      "bg_preview": "https://i.ibb.co/7v2bX1x/bg-project3.webp",
+      "bg_hero": "https://i.ibb.co/8KrtsgQ/bg-inside.webp",
+      "bg_spec": null,
+      "slider": [
+        "https://i.ibb.co/WByFvpq/image-1.jpg",
+        "https://i.ibb.co/c8nfP4f/image-2.jpg"
+      ],
+      "gallery": [],
+      "specification": {
+        "data": {
+          "id": 3,
+          "attributes": {
+            "Efficiency": {
+              "id": 7,
+              "max_speed": null,
+              "overclocking": 5,
+              "fuel": null,
+              "fuel_grade": null
+            },
+            "Engine": null,
+            "Transmission": null,
+            "Dimensions": null,
+            "Payload": null,
+            "localizations": {
+              "data": [{
+                "id": 4,
+                "attributes": {
+                  "createdAt": "2022-05-27T19:56:11.799Z",
+                  "updatedAt": "2022-05-27T19:56:23.159Z",
+                  "publishedAt": "2022-05-27T19:56:18.150Z",
+                  "locale": "en",
+                  "name": "ЗИЛ 600 сил",
+                  "project": {
+                    "data": {
+                      "id": 6,
+                      "attributes": {
+                        "locale": "en",
+                        "short_description": "Проект начался в 2017 году, когда Константин приобрёл ЗИЛ-ММЗ-4502 1986 года выпуска. Первоначально была попытка модернизировать отечественный 6-литровый V8. Однако мощность оказалась не той, которая хотелась. Поэтому было принято радикальное решение: установить компрессор от 5-литрового Range Rover, доработанный в конце проекта до 600 сил.",
+                        "name": "ЗИЛ 600 сил",
+                        "description": "Проект начался в 2017 году, когда Константин приобрёл ЗИЛ-ММЗ-4502 1986 года выпуска. Первоначально была попытка модернизировать отечественный 6-литровый V8. Однако мощность оказалась не той, которая хотелась. Поэтому было принято радикальное решение: установить компрессор от 5-литрового Range Rover, доработанный в конце проекта до 600 сил.",
+                        "youtube_id": "PLiCpP_44QZBxMJxUF9MHKkpweRnSNjWQr",
+                        "webcast": "https://www.youtube.com/playlist?list=PLiCpP_44QZBxMJxUF9MHKkpweRnSNjWQr",
+                        "quote": "...прокатившись на нем один раз в год, все равно заряжаешься невероятной энергетикой этой машины. Ощущение, что ты находишься в кино. И это я не готов променять ни на какие деньги.\n-Константин Заруцкий",
+                        "bg_preview": {
+                          "data": {
+                            "id": 29,
+                            "attributes": {
+                              "name": "bg_project3.jpg",
+                              "alternativeText": "bg_project3.jpg",
+                              "caption": "bg_project3.jpg",
+                              "width": 1920,
+                              "height": 1080,
+                              "formats": {
+                                "thumbnail": {
+                                  "name": "thumbnail_bg_project3.jpg",
+                                  "hash": "thumbnail_bg_project3_f0bf616558",
+                                  "ext": ".jpg",
+                                  "mime": "image/jpeg",
+                                  "path": null,
+                                  "width": 245,
+                                  "height": 138,
+                                  "size": 3.77,
+                                  "url": "/uploads/thumbnail_bg_project3_f0bf616558.jpg"
+                                },
+                                "large": {
+                                  "name": "large_bg_project3.jpg",
+                                  "hash": "large_bg_project3_f0bf616558",
+                                  "ext": ".jpg",
+                                  "mime": "image/jpeg",
+                                  "path": null,
+                                  "width": 1000,
+                                  "height": 563,
+                                  "size": 29.82,
+                                  "url": "/uploads/large_bg_project3_f0bf616558.jpg"
+                                },
+                                "medium": {
+                                  "name": "medium_bg_project3.jpg",
+                                  "hash": "medium_bg_project3_f0bf616558",
+                                  "ext": ".jpg",
+                                  "mime": "image/jpeg",
+                                  "path": null,
+                                  "width": 750,
+                                  "height": 422,
+                                  "size": 19.78,
+                                  "url": "/uploads/medium_bg_project3_f0bf616558.jpg"
+                                },
+                                "small": {
+                                  "name": "small_bg_project3.jpg",
+                                  "hash": "small_bg_project3_f0bf616558",
+                                  "ext": ".jpg",
+                                  "mime": "image/jpeg",
+                                  "path": null,
+                                  "width": 500,
+                                  "height": 281,
+                                  "size": 10.88,
+                                  "url": "/uploads/small_bg_project3_f0bf616558.jpg"
+                                }
+                              },
+                              "hash": "bg_project3_f0bf616558",
+                              "ext": ".jpg",
+                              "mime": "image/jpeg",
+                              "size": 770.08,
+                              "url": "/uploads/bg_project3_f0bf616558.jpg",
+                              "previewUrl": null,
+                              "provider": "local",
+                              "provider_metadata": null,
+                              "createdAt": "2022-05-17T16:24:48.639Z",
+                              "updatedAt": "2022-05-17T16:24:48.639Z"
+                            }
+                          }
+                        },
+                        "bg_hero": {
+                          "data": {
+                            "id": 68,
+                            "attributes": {
+                              "name": "bg_inside.jpg",
+                              "alternativeText": "bg_inside.jpg",
+                              "caption": "bg_inside.jpg",
+                              "width": 1920,
+                              "height": 1080,
+                              "formats": {
+                                "thumbnail": {
+                                  "name": "thumbnail_bg_inside.jpg",
+                                  "hash": "thumbnail_bg_inside_791b15a77d",
+                                  "ext": ".jpg",
+                                  "mime": "image/jpeg",
+                                  "path": null,
+                                  "width": 245,
+                                  "height": 138,
+                                  "size": 5.3,
+                                  "url": "/uploads/thumbnail_bg_inside_791b15a77d.jpg"
+                                },
+                                "large": {
+                                  "name": "large_bg_inside.jpg",
+                                  "hash": "large_bg_inside_791b15a77d",
+                                  "ext": ".jpg",
+                                  "mime": "image/jpeg",
+                                  "path": null,
+                                  "width": 1000,
+                                  "height": 563,
+                                  "size": 52.91,
+                                  "url": "/uploads/large_bg_inside_791b15a77d.jpg"
+                                },
+                                "medium": {
+                                  "name": "medium_bg_inside.jpg",
+                                  "hash": "medium_bg_inside_791b15a77d",
+                                  "ext": ".jpg",
+                                  "mime": "image/jpeg",
+                                  "path": null,
+                                  "width": 750,
+                                  "height": 422,
+                                  "size": 33.36,
+                                  "url": "/uploads/medium_bg_inside_791b15a77d.jpg"
+                                },
+                                "small": {
+                                  "name": "small_bg_inside.jpg",
+                                  "hash": "small_bg_inside_791b15a77d",
+                                  "ext": ".jpg",
+                                  "mime": "image/jpeg",
+                                  "path": null,
+                                  "width": 500,
+                                  "height": 281,
+                                  "size": 16.76,
+                                  "url": "/uploads/small_bg_inside_791b15a77d.jpg"
+                                }
+                              },
+                              "hash": "bg_inside_791b15a77d",
+                              "ext": ".jpg",
+                              "mime": "image/jpeg",
+                              "size": 1340.2,
+                              "url": "/uploads/bg_inside_791b15a77d.jpg",
+                              "previewUrl": null,
+                              "provider": "local",
+                              "provider_metadata": null,
+                              "createdAt": "2022-05-26T21:01:29.172Z",
+                              "updatedAt": "2022-05-26T21:01:29.172Z"
+                            }
+                          }
+                        },
+                        "bg_spec": {
+                          "data": null
+                        },
+                        "slider": {
+                          "data": [{
+                            "id": 43,
+                            "attributes": {
+                              "name": "image_1.jpg",
+                              "alternativeText": "image_1.jpg",
+                              "caption": "image_1.jpg",
+                              "width": 280,
+                              "height": 140,
+                              "formats": {
+                                "thumbnail": {
+                                  "name": "thumbnail_image_1.jpg",
+                                  "hash": "thumbnail_image_1_d27dafaa6c",
+                                  "ext": ".jpg",
+                                  "mime": "image/jpeg",
+                                  "path": null,
+                                  "width": 245,
+                                  "height": 123,
+                                  "size": 10.98,
+                                  "url": "/uploads/thumbnail_image_1_d27dafaa6c.jpg"
+                                }
+                              },
+                              "hash": "image_1_d27dafaa6c",
+                              "ext": ".jpg",
+                              "mime": "image/jpeg",
+                              "size": 64.19,
+                              "url": "/uploads/image_1_d27dafaa6c.jpg",
+                              "previewUrl": null,
+                              "provider": "local",
+                              "provider_metadata": null,
+                              "createdAt": "2022-05-19T19:58:03.858Z",
+                              "updatedAt": "2022-05-19T19:58:03.858Z"
+                            }
+                          }, {
+                            "id": 42,
+                            "attributes": {
+                              "name": "image_2.jpg",
+                              "alternativeText": "image_2.jpg",
+                              "caption": "image_2.jpg",
+                              "width": 280,
+                              "height": 140,
+                              "formats": {
+                                "thumbnail": {
+                                  "name": "thumbnail_image_2.jpg",
+                                  "hash": "thumbnail_image_2_d1e8c436d4",
+                                  "ext": ".jpg",
+                                  "mime": "image/jpeg",
+                                  "path": null,
+                                  "width": 245,
+                                  "height": 123,
+                                  "size": 6.87,
+                                  "url": "/uploads/thumbnail_image_2_d1e8c436d4.jpg"
+                                }
+                              },
+                              "hash": "image_2_d1e8c436d4",
+                              "ext": ".jpg",
+                              "mime": "image/jpeg",
+                              "size": 44.73,
+                              "url": "/uploads/image_2_d1e8c436d4.jpg",
+                              "previewUrl": null,
+                              "provider": "local",
+                              "provider_metadata": null,
+                              "createdAt": "2022-05-19T19:58:03.850Z",
+                              "updatedAt": "2022-05-19T19:58:03.850Z"
+                            }
+                          }]
+                        },
+                        "gallery": {
+                          "data": null
+                        },
+                        "specification": {
+                          "data": {
+                            "id": 4,
+                            "attributes": {
+                              "createdAt": "2022-05-27T19:56:11.799Z",
+                              "updatedAt": "2022-05-27T19:56:23.159Z",
+                              "publishedAt": "2022-05-27T19:56:18.150Z",
+                              "locale": "en",
+                              "name": "ЗИЛ 600 сил"
+                            }
+                          }
+                        },
+                        "hero_video": {
+                          "data": {
+                            "id": 72,
+                            "attributes": {
+                              "name": "webm.webm",
+                              "alternativeText": "webm.webm",
+                              "caption": "webm.webm",
+                              "width": null,
+                              "height": null,
+                              "formats": null,
+                              "hash": "webm_db8232e6c6",
+                              "ext": ".webm",
+                              "mime": "video/webm",
+                              "size": 5079.36,
+                              "url": "/uploads/webm_db8232e6c6.webm",
+                              "previewUrl": null,
+                              "provider": "local",
+                              "provider_metadata": null,
+                              "createdAt": "2022-05-27T19:52:32.660Z",
+                              "updatedAt": "2022-05-27T19:52:32.660Z"
+                            }
+                          }
+                        },
+                        "localizations": {
+                          "data": [{
+                            "id": 5,
+                            "attributes": {
+                              "locale": "ru",
+                              "short_description": "Проект начался в 2017 году, когда Константин приобрёл ЗИЛ-ММЗ-4502 1986 года выпуска. Первоначально была попытка модернизировать отечественный 6-литровый V8. Однако мощность оказалась не той, которая хотелась. Поэтому было принято радикальное решение: установить компрессор от 5-литрового Range Rover, доработанный в конце проекта до 600 сил.",
+                              "name": "ЗИЛ 600 сил",
+                              "description": "Проект начался в 2017 году, когда Константин приобрёл ЗИЛ-ММЗ-4502 1986 года выпуска. Первоначально была попытка модернизировать отечественный 6-литровый V8. Однако мощность оказалась не той, которая хотелась. Поэтому было принято радикальное решение: установить компрессор от 5-литрового Range Rover, доработанный в конце проекта до 600 сил.",
+                              "youtube_id": "PLiCpP_44QZBxMJxUF9MHKkpweRnSNjWQr",
+                              "webcast": "https://www.youtube.com/playlist?list=PLiCpP_44QZBxMJxUF9MHKkpweRnSNjWQr",
+                              "quote": "...прокатившись на нем один раз в год, все равно заряжаешься невероятной энергетикой этой машины. Ощущение, что ты находишься в кино. И это я не готов променять ни на какие деньги.\n-Константин Заруцкий"
+                            }
+                          }]
+                        }
+                      }
+                    }
+                  },
+                  "Efficiency": {
+                    "id": 8,
+                    "max_speed": null,
+                    "overclocking": 5,
+                    "fuel": null,
+                    "fuel_grade": null
+                  },
+                  "Engine": null,
+                  "Transmission": null,
+                  "Dimensions": null,
+                  "Payload": null,
+                  "localizations": {
+                    "data": [{
+                      "id": 3,
+                      "attributes": {
+                        "createdAt": "2022-05-27T19:56:05.122Z",
+                        "updatedAt": "2022-05-27T19:56:23.139Z",
+                        "publishedAt": "2022-05-27T19:56:23.134Z",
+                        "locale": "ru",
+                        "name": "ЗИЛ 600 сил",
+                        "project": {
+                          "data": {
+                            "id": 5,
+                            "attributes": {
+                              "locale": "ru",
+                              "short_description": "Проект начался в 2017 году, когда Константин приобрёл ЗИЛ-ММЗ-4502 1986 года выпуска. Первоначально была попытка модернизировать отечественный 6-литровый V8. Однако мощность оказалась не той, которая хотелась. Поэтому было принято радикальное решение: установить компрессор от 5-литрового Range Rover, доработанный в конце проекта до 600 сил.",
+                              "name": "ЗИЛ 600 сил",
+                              "description": "Проект начался в 2017 году, когда Константин приобрёл ЗИЛ-ММЗ-4502 1986 года выпуска. Первоначально была попытка модернизировать отечественный 6-литровый V8. Однако мощность оказалась не той, которая хотелась. Поэтому было принято радикальное решение: установить компрессор от 5-литрового Range Rover, доработанный в конце проекта до 600 сил.",
+                              "youtube_id": "PLiCpP_44QZBxMJxUF9MHKkpweRnSNjWQr",
+                              "webcast": "https://www.youtube.com/playlist?list=PLiCpP_44QZBxMJxUF9MHKkpweRnSNjWQr",
+                              "quote": "...прокатившись на нем один раз в год, все равно заряжаешься невероятной энергетикой этой машины. Ощущение, что ты находишься в кино. И это я не готов променять ни на какие деньги.\n-Константин Заруцкий"
+                            }
+                          }
+                        },
+                        "Efficiency": {
+                          "id": 7,
+                          "max_speed": null,
+                          "overclocking": 5,
+                          "fuel": null,
+                          "fuel_grade": null
+                        },
+                        "Engine": null,
+                        "Transmission": null,
+                        "Dimensions": null,
+                        "Payload": null,
+                        "localizations": {
+                          "data": [{
+                            "id": 4,
+                            "attributes": {
+                              "createdAt": "2022-05-27T19:56:11.799Z",
+                              "updatedAt": "2022-05-27T19:56:23.159Z",
+                              "publishedAt": "2022-05-27T19:56:18.150Z",
+                              "locale": "en",
+                              "name": "ЗИЛ 600 сил"
+                            }
+                          }]
+                        }
+                      }
+                    }]
+                  }
+                }
+              }]
+            }
+          }
+        }
+      },
+      "hero_video": {
+        "webm": "https://www.dl.dropboxusercontent.com/s/9adtpxmi07sa9gt/project3.webm?dl=0",
+        "mp4": "https://www.dl.dropboxusercontent.com/s/0khcc885zhgokr6/project3.mp4?dl=0"
+      }
+    }
+  }, {
+    "id": 7,
+    "attributes": {
+      "short_description": "Это детище как нельзя лучше показывает всю многогранность её создателя. С одной стороны, золотая «Ока» с поднимающимися дверьми на 16-клапанном двигателе и широком обвесе — «стёб» и безумство. С другой — воплощение детской мечты. Константин грезил подобным проектом ещё в отрочестве, делая зарисовки об улучшениях «Оки» в записной книжке.",
+      "name": "ОКАZИЯ",
+      "description": "Это детище как нельзя лучше показывает всю многогранность её создателя. С одной стороны, золотая «Ока» с поднимающимися дверьми на 16-клапанном двигателе и широком обвесе — «стёб» и безумство. С другой — воплощение детской мечты. Константин грезил подобным проектом ещё в отрочестве, делая зарисовки об улучшениях «Оки» в записной книжке.",
+      "youtube_id": "PLiCpP_44QZByDE79rI4UcDMClOvYgoJL_",
+      "webcast": "https://www.youtube.com/playlist?list=PLiCpP_44QZByDE79rI4UcDMClOvYgoJL_",
+      "quote": "Спорткар в минималке.\n-Константин Заруцкий",
+      "bg_preview": "https://i.ibb.co/jw9KXHp/bg-project4.webp",
+      "bg_hero": "https://i.ibb.co/jw9KXHp/bg-project4.webp",
+      "bg_spec": null,
+      "slider": [
+        "https://i.ibb.co/YyDxB8R/image-1.jpg",
+        "https://i.ibb.co/hRBmz0S/image-2.jpg"
+      ],
+      "gallery": [],
+      "specification": {
+        "data": null
+      },
+      "hero_video": {
+        "webm": "https://www.dl.dropboxusercontent.com/s/rbzq0hltyfinsl4/project4.webm?dl=0",
+        "mp4": "https://www.dl.dropboxusercontent.com/s/j5sque86xjii71p/project4.mp4?dl=0"
+      }
+    }
+  }, {
+    "id": 9,
+    "attributes": {
+      "short_description": "Штатный дизельный двигатель от КАМАЗа заменили на силовой агрегат от Scania, который в стоке выдавал около 630 л.с. Благодаря установке турбонаддува мотор разогнали до 1000 л.с. По ожиданиям Константина 1000-сильный турбомонстр должен был побить все мыслимые и немыслимые рекорды скорости. Однако, что-то пошло не так...",
+      "name": "КАМАЗ 1000 СИЛ",
+      "description": "Штатный дизельный двигатель от КАМАЗа заменили на силовой агрегат от Scania, который в стоке выдавал около 630 л.с. Благодаря установке турбонаддува мотор разогнали до 1000 л.с. По ожиданиям Константина 1000-сильный турбомонстр должен был побить все мыслимые и немыслимые рекорды скорости. Однако, что-то пошло не так...",
+      "youtube_id": "PLiCpP_44QZBxIIywXINycZsCcZx9ELVGy",
+      "webcast": "https://www.youtube.com/playlist?list=PLiCpP_44QZBxIIywXINycZsCcZx9ELVGy",
+      "quote": "Самое страшное во всём этом то, как на скорости 100 км/ч живёт сам КАМАЗ. Это некое парящее в воздухе создание, иногда цепляющееся [за асфальт] колёсами и не всегда хорошо управляемое...\n-Константин Заруцкий",
+      "bg_preview": "https://i.ibb.co/dPHG5Pd/bg-project5.webp",
+      "bg_hero": "https://i.ibb.co/dPHG5Pd/bg-project5.webp",
+      "bg_spec": null,
+      "slider": [
+        "https://i.ibb.co/RDjrNww/image-1.jpg",
+        "https://i.ibb.co/F4DNqqL/image-2.jpg"
+      ],
+      "gallery": [],
+      "specification": {
+        "data": null
+      },
+      "hero_video": null
+    }
+  }, {
+    "id": 11,
+    "attributes": {
+      "short_description": "Электрификация ГАЗ-21 — один из самых долгих проектов. С 2018 года и до сих пор строится Волга на электродвигателе от Nissan Leaf для городской езды. Только на её покраску ушло почти два года и 2 миллиона рублей. Впереди предстоит ещё очень много работы, но, однажды, Волга, таки, сделается.",
+      "name": "ЭлектроВолга",
+      "description": "Электрификация ГАЗ-21 — один из самых долгих проектов. С 2018 года и до сих пор строится Волга на электродвигателе от Nissan Leaf для городской езды. Только на её покраску ушло почти два года и 2 миллиона рублей. Впереди предстоит ещё очень много работы, но, однажды, Волга, таки, сделается.",
+      "youtube_id": "PLiCpP_44QZBy9V4WHYLXOE2cshGdgk8AQ",
+      "webcast": "https://www.youtube.com/playlist?list=PLiCpP_44QZBy9V4WHYLXOE2cshGdgk8AQ",
+      "quote": null,
+      "bg_preview": "https://i.ibb.co/F8bJTF8/bg-project6.webp",
+      "bg_hero": "https://i.ibb.co/F8bJTF8/bg-project6.webp",
+      "bg_spec": null,
+      "slider": [
+        "https://i.ibb.co/NYDKx1j/image-1.jpg",
+        "https://i.ibb.co/gWNF9KQ/image-2.jpg"
+      ],
+      "gallery": [],
+      "specification": {
+        "data": null
+      },
+      "hero_video": null
+    }
+  }, {
+    "id": 13,
+    "attributes": {
+      "short_description": "В 2015 году для проекта «Понторезка» был куплен за 415 тысяч убитый Range Rover III в комплектации Vogue с двигателем 4.4 литра. Целью проекта было показать, как из старого кроссовера можно сделать head-turner с минимальными вложениями. Проект оказался настолько популярным, что слово понторезка стало нарицательным.",
+      "name": "Pontorezka",
+      "description": "В 2015 году для проекта «Понторезка» был куплен за 415 тысяч убитый Range Rover III в комплектации Vogue с двигателем 4.4 литра. Целью проекта было показать, как из старого кроссовера можно сделать head-turner с минимальными вложениями. Проект оказался настолько популярным, что слово понторезка стало нарицательным.",
+      "youtube_id": "PLiCpP_44QZBzqSCBEELHUATMjnnLngDqC",
+      "webcast": "https://www.youtube.com/playlist?list=PLiCpP_44QZBzqSCBEELHUATMjnnLngDqC",
+      "quote": "Это не будет история, которая начнётся, и вы точно будете знать, что в последней серии всё будет хорошо. Мы действуем на свой страх и риск.\n-Константин Заруцкий",
+      "bg_preview": "https://i.ibb.co/tc9kJH1/bg-project7.webp",
+      "bg_hero": "https://i.ibb.co/tc9kJH1/bg-project7.webp",
+      "bg_spec": null,
+      "slider": [
+        "https://i.ibb.co/JvRCPMr/image-1.jpg",
+        "https://i.ibb.co/qnRT2nV/image-2.jpg"
+      ],
+      "gallery": [],
+      "specification": {
+        "data": null
+      },
+      "hero_video": null
+    }
+  }, {
+    "id": 15,
+    "attributes": {
+      "short_description": "Звучит как сюр, которым и является. «Инвалидка» за 30 тысяч с двигателем от мотоцикла и гидроцикла. Да, этот маленький недоавтомобиль может плавать и даже выигрывать в заездах против BMW.",
+      "name": "«Инвалидка» Джеймса Бонда",
+      "description": "Звучит как сюр, которым и является. «Инвалидка» за 30 тысяч с двигателем от мотоцикла и гидроцикла. Да, этот маленький недоавтомобиль может плавать и даже выигрывать в заездах против BMW.",
+      "youtube_id": "PLiCpP_44QZBxZ4lWoYWCC8qiwOd9tNxnt",
+      "webcast": "https://www.youtube.com/playlist?list=PLiCpP_44QZBxZ4lWoYWCC8qiwOd9tNxnt",
+      "quote": null,
+      "bg_preview": "https://i.ibb.co/bRmhyR0/bg-project8.webp",
+      "bg_hero": "https://i.ibb.co/bRmhyR0/bg-project8.webp",
+      "bg_spec": null,
+      "slider": [
+        "https://i.ibb.co/PMbhm1F/image-1.jpg",
+        "https://i.ibb.co/BN5VLGP/image-2.jpg"
+      ],
+      "gallery": [],
+      "specification": {
+        "data": null
+      },
+      "hero_video": null
+    }
+  }, {
+    "id": 17,
+    "attributes": {
+      "short_description": "Концепция проекта заключалась в том, чтобы столкнуть на прямой Mercedes-Benz G-класс и отечественный «Гелендваген». Для этого родной двигатель был поменян на турбированный 3UZ-FE. Это позволило наделить отечественный внедорожник невиданной динамикой, разгоняя внедорожник до 100 км/ч за 4,9 секунды.",
+      "name": "Антигелик",
+      "description": "Концепция проекта заключалась в том, чтобы столкнуть на прямой Mercedes-Benz G-класс и отечественный «Гелендваген». Для этого родной двигатель был поменян на турбированный 3UZ-FE. Это позволило наделить отечественный внедорожник невиданной динамикой, разгоняя внедорожник до 100 км/ч за 4,9 секунды.",
+      "youtube_id": "PLiCpP_44QZByxh6aMLQ5tLtTTr8VcLNzL",
+      "webcast": "https://www.youtube.com/playlist?list=PLiCpP_44QZByxh6aMLQ5tLtTTr8VcLNzL",
+      "quote": "УАЗик должен «валить».\n-Константин Заруцкий",
+      "bg_preview": "https://i.ibb.co/4sQLm7D/bg-project9.webp",
+      "bg_hero": "https://i.ibb.co/4sQLm7D/bg-project9.webp",
+      "bg_spec": null,
+      "slider": [
+        "https://i.ibb.co/5xD0qq4/image-1.jpg",
+        "https://i.ibb.co/fGZZKnb/image-2.jpg"
+      ],
+      "gallery": [],
+      "specification": {
+        "data": null
+      },
+      "hero_video": null
+    }
+  }, {
+    "id": 19,
+    "attributes": {
+      "short_description": "Суть проекта заключается в том, что каждая новая доработка — ирония над другими похожими проектами. Как, например, «сплагиаченная» идея поставить 2JZ-GTE. Но всё же самым интересным решением стала среднемоторная компоновка на 300 сил.",
+      "name": "ПЛАГИАТ",
+      "description": "Суть проекта заключается в том, что каждая новая доработка — ирония над другими похожими проектами. Как, например, «сплагиаченная» идея поставить 2JZ-GTE. Но всё же самым интересным решением стала среднемоторная компоновка на 300 сил.",
+      "youtube_id": "PLiCpP_44QZBwAebJGnNzH-gEHAqFL9et5",
+      "webcast": "https://www.youtube.com/playlist?list=PLiCpP_44QZBwAebJGnNzH-gEHAqFL9et5",
+      "quote": "Мы постараемся сделать то же самое, что и все, но только лучше, с новым подходом и интереснее.\n-Константин Заруцкий",
+      "bg_preview": "https://i.ibb.co/fv3cjf2/bg-project10.webp",
+      "bg_hero": "https://i.ibb.co/fv3cjf2/bg-project10.webp",
+      "bg_spec": null,
+      "slider": [
+        "https://i.ibb.co/Pw11qDw/image-1.jpg",
+        "https://i.ibb.co/wwrSMRm/image-2.jpg"
+      ],
+      "gallery": [],
+      "specification": {
+        "data": null
+      },
+      "hero_video": null
+    }
+  }],
+  "meta": {}
+}

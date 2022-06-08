@@ -1,0 +1,16 @@
+{
+  "data": {
+    "id": 5,
+    "attributes": {
+      "name_router": "shop",
+      "locale": "ru",
+      "Route": [{
+        "id": 28,
+        "title": "Shop",
+        "url": "http://academeg-store.ru",
+        "external_link": true
+      }]
+    }
+  },
+  "meta": {}
+}

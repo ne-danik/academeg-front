@@ -1,0 +1,41 @@
+{
+  "data": {
+    "id": 3,
+    "attributes": {
+      "name_router": "side_menu",
+      "locale": "ru",
+      "Route": [{
+        "id": 16,
+        "title": "AcademeG",
+        "url": "/example",
+        "external_link": false
+      }, {
+        "id": 17,
+        "title": "Проекты",
+        "url": "/projects",
+        "external_link": false
+      }, {
+        "id": 19,
+        "title": "Партнёры",
+        "url": "/example",
+        "external_link": false
+      }, {
+        "id": 28,
+        "title": "Спонсоры",
+        "url": "/example",
+        "external_link": false
+      }, {
+        "id": 20,
+        "title": "Сотрудничество",
+        "url": "/example",
+        "external_link": false
+      }, {
+        "id": 21,
+        "title": "Обратная связь",
+        "url": "/example",
+        "external_link": false
+      }]
+    }
+  },
+  "meta": {}
+}
