@@ -9,7 +9,7 @@
 			playlistId: data.youtube_id
 		};
 		const ytData = await getYoutubeVideos(options);
-
+    
 		return {
 			props: {
 				locale: params.locale,
@@ -83,7 +83,7 @@
 	{#if projectData.bg_video}
 		<div
 			class="absolute z-[1] w-full h-full bg-no-repeat bg-cover bg-center pointer-events-none animate"
-			style="background-image: url(https://i.ibb.co/1X1kCW2/bg-shadow.png);"
+			style="background-image: url(https://i.ibb.co/tqpG1HH/shadow.png);"
 		/>
 		<video
 			class="absolute w-full h-full object-cover"
