@@ -20,7 +20,7 @@
 	<span>{status}</span>
 	<h2>Ooops...</h2>
 	<h1>{message}</h1>
-	<a href="/" title="Take me home">Ga-Ga-Ga!!!!!!!!1</a>
+	<a href="/" title="Take me home">Ga-Ga-Gaaa!!!!!!!!1</a>
 
 	<div>
 		<img class="goose" src={goose} alt="Goose" />

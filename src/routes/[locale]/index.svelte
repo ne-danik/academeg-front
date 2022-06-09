@@ -131,8 +131,8 @@
 					<div class="relative w-full h-[20%] sm:h-[10rem] lg:h-[14rem] xl:h-[11.25rem]">
 						<img
 							class="w-full h-full object-cover select-none pointer-events-none"
-              width="1920"
-              height="1080"
+              width="320"
+              height="180"
 							src=""
 							alt={item.title}
 							data-src={item.thumb}

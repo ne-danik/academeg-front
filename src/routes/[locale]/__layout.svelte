@@ -1,6 +1,6 @@
 <script context="module">
 	// services
-	import { getLiveStream } from '../../services/getLiveStream';
+	import { getLiveStreamStatus } from '../../services/getLiveStream';
 
 	import * as langs from '../../db/language.json';
 	import * as localesRu from '../../db/ru/locales.json';
@@ -54,22 +54,17 @@
 		if (shopData) {
 			shopLinkStore.set(shopData.data.attributes.Route);
 		}
-    
-		const status = await getLiveStream()
-			.then((data) => data.event)
-			.catch((e) => console.log(e.message));
 
 		return {
 			props: {
-				url,
-				liveStream: status
+				url
 			}
 		};
 	}
 </script>
 
 <script>
-	import { setContext } from 'svelte';
+	import { onMount, setContext } from 'svelte';
 	// components
 	import Header from '../../components/Header.svelte';
 	import Footer from '../../components/Footer.svelte';
@@ -77,7 +72,14 @@
 	import '../../app.css';
 
 	export let url;
-	export let liveStream;
+
+	let liveStream = false;
+
+	onMount(async () => {
+		liveStream = await getLiveStreamStatus()
+			.then((data) => data.event)
+			.catch((e) => console.log(e.message));
+	});
 
 	setContext('liveStream', liveStream);
 </script>

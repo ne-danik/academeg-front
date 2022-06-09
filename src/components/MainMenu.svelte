@@ -1,6 +1,5 @@
 <script>
 	import { getContext } from 'svelte';
-
 	import { fade } from 'svelte/transition';
 	import { currentLang, mainMenuStore, shopLinkStore } from '../store';
 

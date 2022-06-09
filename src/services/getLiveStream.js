@@ -1,6 +1,5 @@
-export const getLiveStream = async () => {
-  const channelId = 'UCBXf4WdUWkQm4rcQYIGQL7g';
-  const url = `https://youtube.googleapis.com/youtube/v3/search?part=id&channelId=${channelId}&eventType=live&type=video&key=${import.meta.env.VITE_API_KEY_YOUTUBE}`;
+export const getLiveStreamStatus = async () => {
+  const url = `https://youtube.googleapis.com/youtube/v3/search?part=id&channelId=UCBXf4WdUWkQm4rcQYIGQL7g&eventType=live&type=video&key=${import.meta.env.VITE_API_KEY_YOUTUBE}`;
 
   const response = await fetch(url);
   const data = await response.json();

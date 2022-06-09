@@ -5,37 +5,26 @@
       "name_router": "side_menu",
       "locale": "en",
       "Route": [{
-        "id": 22,
         "title": "AcademeG",
         "url": "/example",
         "external_link": false
       }, {
-        "id": 23,
         "title": "Projects",
         "url": "/projects",
         "external_link": false
       }, {
-        "id": 24,
-        "title": "Suprotec",
-        "url": "/example",
-        "external_link": false
-      }, {
-        "id": 25,
         "title": "Partners",
         "url": "/example",
         "external_link": false
       }, {
-        "id": 29,
         "title": "Sponsors",
         "url": "/example",
         "external_link": false
       }, {
-        "id": 26,
         "title": "Cooperation",
         "url": "/example",
         "external_link": false
       }, {
-        "id": 27,
         "title": "Feedback",
         "url": "/example",
         "external_link": false
