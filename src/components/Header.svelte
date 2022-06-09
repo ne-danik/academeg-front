@@ -12,7 +12,7 @@
 
 	let y = 0;
 	let lastY = 0;
-	const offset = 0;
+	const offset = 1;
 
 	let isToggleBurger = false;
 	let isShowHeader = true;
@@ -35,7 +35,7 @@
 		if (isToggleBurger) {
 			onToggleBurger();
 		}
-		if (y === offset) {
+		if (y <= offset) {
 			isScrolled = false;
 			return (isShowHeader = true);
 		}

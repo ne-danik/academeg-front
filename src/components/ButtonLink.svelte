@@ -11,8 +11,8 @@
 	let a;
 	let path;
 	let hover;
-	let btnWidth;
-	let btnHeight;
+	let btnWidth = 0;
+	let btnHeight = 0;
 
 	const handleMouseenter = () => {
 		hover.style.transform = `translateX(0)`;
@@ -69,7 +69,7 @@
 	{/if}
 
 	{#if type === 'external'}
-		<div
+		<span
 			class="inline-block w-[{iconSize / 16}rem] h-[{iconSize / 16}rem] overflow-hidden {iconStyle}"
 		>
 			<svg
@@ -87,10 +87,10 @@
 					bind:this={path}
 				/>
 			</svg>
-		</div>
+		</span>
 	{/if}
-	<div
-		class="absolute -top-0.5 right-0 bottom-0 -z-[1] transition-transform ease-out-expo duration-600"
+	<span
+		class="absolute block -top-0.5 right-0 bottom-0 -z-[1] transition-transform ease-out-expo duration-600"
 		style="left: -{btnHeight}px; border-bottom: {btnHeight}px solid white; border-left: {btnHeight}px solid transparent; transform: translateX({btnWidth +
 			btnHeight -
 			20}px);"

@@ -43,7 +43,7 @@
 	export let projectData;
 	export let videosData;
 
-	let scrollY;
+	let scrollY = 0;
 
 	let showModal = false;
 	let videoData = {};
@@ -332,6 +332,8 @@
 											class="w-full h-full object-cover select-none pointer-events-none"
 											src={item.thumbnail}
 											alt={item.title}
+                      width="400"
+                      height="225"
 										/>
 										<div
 											class="absolute z-[2] top-0 left-0 riCht-0 bottom-0 w-full h-full flex items-center justify-center"

@@ -56,7 +56,7 @@
 				>
 					<a
 						href="{link.external_link ? '' : `/${locale}`}{link.url}"
-						target={link.external_link ? '_blank' : ''}
+						target={link.external_link ? '_blank' : '_self'}
 						on:click={onToggleMenu}
 						class="block py-3.5 duration-300 hover:opacity-60"
 					>

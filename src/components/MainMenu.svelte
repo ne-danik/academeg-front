@@ -43,7 +43,7 @@
 	{#each navLinks as link}
 		<a
 			href="{link.external_link ? '' : `/${locale}`}{link.url}"
-			target={link.external_link ? '_blank' : ''}
+			target={link.external_link ? '_blank' : '_self'}
 			class="relative inline-block mr-5 lg:mr-6 py-1 font-exo font-semibold text-sm uppercase text-shadow"
 			on:mouseenter={(e) => movingBar(e)}
 		>

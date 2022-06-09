@@ -6,8 +6,8 @@
 	let button;
 	let path;
 	let hover;
-	let btnWidth;
-	let btnHeight;
+	let btnWidth = 0;
+	let btnHeight = 0;
 
 	const handleMouseenter = () => {
 		hover.style.transform = `translateX(0)`;
@@ -59,8 +59,8 @@
 
 	<slot />
 
-	<div
-		class="absolute -top-0.5 right-0 bottom-0 -z-[1] ease-out-expo duration-600"
+	<span
+		class="absolute block -top-0.5 right-0 bottom-0 -z-[1] ease-out-expo duration-600"
 		style="left: -{btnHeight}px; border-bottom: {btnHeight}px solid white; border-left: {btnHeight}px solid transparent; transform: translateX({btnWidth +
 			btnHeight -
 			20}px);"

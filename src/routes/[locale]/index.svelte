@@ -39,8 +39,8 @@
 	export let latestInterview;
 	export let socials;
 
-	let innerHeight;
-	let scrollY;
+	let innerHeight = 0;
+	let scrollY = 0;
 
 	let showModal = false;
 	let videoData = {};
@@ -131,8 +131,8 @@
 					<div class="relative w-full h-[20%] sm:h-[10rem] lg:h-[14rem] xl:h-[11.25rem]">
 						<img
 							class="w-full h-full object-cover select-none pointer-events-none"
-              width="100%"
-              height="100%"
+              width="1920"
+              height="1080"
 							src=""
 							alt={item.title}
 							data-src={item.thumb}
@@ -255,12 +255,13 @@
 					<div class="shrink-0 mb-4 md:mb-6 w-12 md:w-16 xl:w-[4.5rem]">
 						<img
 							class="w-12 h-12 md:w-16 md:h-16 xl:w-[4.5rem] xl:h-[4.5rem] rounded-full overflow-hidden object-cover select-none pointer-events-none"
-              width="3rem"
-              height="3rem"
+              width="72"
+              height="72"
               src=""
 							alt="AcademeG DailyStream"
 							data-src="https://i.ibb.co/qpbRn2P/ch1.jpg"
 							data-entry="img"
+              loading="lazy"
               />
 					</div>
 					<H3>AcademeG DailyStream</H3>
@@ -277,8 +278,8 @@
 					<div class="shrink-0 mb-4 md:mb-6 w-12 md:w-16 xl:w-[4.5rem]">
 						<img
 							class="w-12 h-12 md:w-16 md:h-16 xl:w-[4.5rem] xl:h-[4.5rem] rounded-full overflow-hidden object-cover select-none pointer-events-none"
-              width="3rem"
-              height="3rem"
+              width="72"
+              height="72"
               src=""
 							alt="AcademeG 2nd CH"
 							data-src="https://i.ibb.co/Jz147yx/ch2.jpg"

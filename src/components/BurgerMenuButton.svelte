@@ -7,13 +7,14 @@
 </script>
 
 <button class="relative w-5 h-5 z-[33]" on:click>
-	<div class="line line-top" class:toggle />
-	<div class="line line-middle" class:toggle />
-	<div class="line line-bottom" class:toggle />
+	<span class="line line-top" class:toggle />
+	<span class="line line-middle" class:toggle />
+	<span class="line line-bottom" class:toggle />
 </button>
 
 <style>
 	.line {
+    display: block;
 		position: absolute;
 		left: 0;
 		width: 1.25rem;
