@@ -166,9 +166,8 @@
 					<p class="py-2 lg:py-3 text-xs lg:text-sm leading-none text-white/80 uppercase">
 						{dayjs().to(dayjs(item.date))}
 					</p>
-					<p class="text-lg lg:text-xl font-bold leading-none uppercase line-clamp">
-						{item.title}
-						{item.subtitle ? item.subtitle : ''}
+					<p class="text-lg lg:text-xl font-bold leading-none uppercase line-clamp" title={item.title.toUpperCase() + ' ' + item.subtitle.toUpperCase()}>
+						{item.title} {item.subtitle}
 					</p>
 				</div>
 			{/each}
