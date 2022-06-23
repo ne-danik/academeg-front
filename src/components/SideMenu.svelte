@@ -1,5 +1,4 @@
 <script>
-  import { getContext } from 'svelte';
 	import { fade, fly } from 'svelte/transition';
 	import { cubicOut } from 'svelte/easing';
 	import {
@@ -9,8 +8,6 @@
 		shopLinkStore,
 		mainMenuStore
 	} from '../store';
-
-	const liveStream = getContext('liveStream');
 
 	const locale = $currentLang;
 	const sideMenuLinks = $sideMenuStore;
@@ -60,18 +57,7 @@
 						on:click={onToggleMenu}
 						class="block py-3.5 duration-300 hover:opacity-60"
 					>
-						<span class="relative">
-							{link.title}
-							{#if link.title === 'Live' && liveStream}
-								<span
-									class="absolute -right-2.5 top-0 bottom-0 my-auto h-1.5 w-1.5 rounded-[50%] bg-red"
-								/>
-								<span
-									class="absolute -right-3 top-0 bottom-0 my-auto h-2.5 w-2.5 rounded-[50%] bg-red animate-ping"
-									title="Идёт трансляция"
-								/>
-							{/if}
-						</span>
+						<span>{link.title}</span>
 					</a>
 				</li>
 			{/each}
