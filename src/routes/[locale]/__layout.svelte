@@ -9,7 +9,7 @@
 	} from '../../store';
 
 	export async function load({ url, params, fetch }) {
-		const apiUrl = import.meta.env.VITE_API_URL + ':' + import.meta.env.VITE_SRV_PORT;
+		const apiUrl = import.meta.env.VITE_API_URL;
 		// get languages
 		const langsURL = `${apiUrl}/api/language`;
 		const langsRes = await fetch(langsURL);
