@@ -108,7 +108,7 @@ export const getOneProject = async (params, fetch, id) => {
       title: attr.title,
       description: attr.description || '',
       quote: attr.quote,
-      video_id: attr.video_id,
+      playlist_id: attr.playlist_id,
       specifications: {
         efficiency: {
           max_speed: efficiency?.max_speed || '-',
