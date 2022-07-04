@@ -1,5 +1,5 @@
 export const useRequest = (fetch, query) => {
-  const url = import.meta.env.VITE_API_URL + ':' + import.meta.env.VITE_SRV_PORT + '/graphql';
+  const url = import.meta.env.VITE_DB_URL + '/graphql';
 
   return fetch(
       url, {
