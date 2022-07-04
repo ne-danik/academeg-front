@@ -12,24 +12,24 @@
 		const apiUrl = import.meta.env.VITE_API_URL;
 		// get languages
 		const langsURL = `${apiUrl}/api/language`;
-		const langsRes = await fetch(langsURL);
-		const langsData = await langsRes.json();
+		const langsData = await fetch(langsURL).then(res => res.json());
+		//const langsData = await langsRes.json();
 		// get locales fields
 		const localesURL = `${apiUrl}/api/localez?locale=${params.locale}&populate[0]=Route`;
-		const localesRes = await fetch(localesURL);
-		const localesData = await localesRes.json();
+		const localesData = await fetch(localesURL).then(res => res.json());
+		//const localesData = await localesRes.json();
 		// get main menu links
 		const mainMenuURL = `${apiUrl}/api/routers/${params.locale === 'ru' ? 1 : 2}?populate[0]=Route`;
-		const mainMenuRes = await fetch(mainMenuURL);
-		const mainMenuData = await mainMenuRes.json();
+		const mainMenuData = await fetch(mainMenuURL).then(res => res.json());
+		//const mainMenuData = await mainMenuRes.json();
 		// get side menu links
 		const sideMenuURL = `${apiUrl}/api/routers/${params.locale === 'ru' ? 3 : 4}?populate[0]=Route`;
-		const sideMenuRes = await fetch(sideMenuURL);
-		const sideMenuData = await sideMenuRes.json();
+		const sideMenuData = await fetch(sideMenuURL).then(res => res.json());
+		//const sideMenuData = await sideMenuRes.json();
 		// get shop menu link
 		const shopURL = `${apiUrl}/api/routers/${params.locale === 'ru' ? 5 : 6}?populate[0]=Route`;
-		const shopRes = await fetch(shopURL);
-		const shopData = await shopRes.json();
+		const shopData = await fetch(shopURL).then(res => res.json());
+		//const shopData = await shopRes.json();
 
 		// set current language
 		currentLang.set(params.locale || 'ru');
