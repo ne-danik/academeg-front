@@ -5,7 +5,7 @@ import {
 export const getPreviousVideo = async (params, fetch) => {
 
   const query = `query PreviousReleases {
-    latestReleases(locale: "${params.locale}", sort: ["publishedAt:desc"], pagination: { start: 1, limit: 3 }) {
+    latestReleases(locale: "${params.locale}", sort: ["date:desc"], pagination: { start: 1, limit: 3 }) {
       data {
         attributes {
           title
@@ -13,7 +13,7 @@ export const getPreviousVideo = async (params, fetch) => {
           video_url
           video_id
           preview_url
-          publishedAt
+          date
         }
       }
     }
@@ -30,7 +30,7 @@ export const getPreviousVideo = async (params, fetch) => {
       video_url: attr.video_url,
       video_id: attr.video_id,
       preview_url: attr.preview_url,
-      publishedAt: attr.publishedAt
+      publishedAt: attr.date
     }
   }
 
