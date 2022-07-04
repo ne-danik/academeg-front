@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@500;600;700&display=swap");
+
+@font-face {
+  font-family: "Posterama";
+  font-weight: 300;
+  src: url("./assets/fonts/PosteramaTextLight.otf") format("opentype");
+}
+@font-face {
+  font-family: "Posterama";
+  font-weight: 400;
+  src: url("./assets/fonts/PosteramaTextRegular.otf") format("opentype");
+}
+@font-face {
+  font-family: "Posterama";
+  font-weight: 600;
+  src: url("./assets/fonts/PosteramaTextSemibold.otf") format("opentype");
+}
+@font-face {
+  font-family: "Posterama";
+  font-weight: 700;
+  src: url("./assets/fonts/PosteramaTextBold.otf") format("opentype");
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .h1 {
+    @apply font-bold uppercase leading-none break-words text-5xl sm:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl xs:text-4xl text-shadow;
+  }
+  .h2 {
+    @apply font-bold uppercase leading-none break-words text-4xl sm:text-5xl lg:text-5.5xl xl:text-6xl 2xl:text-6.5xl text-shadow;
+  }
+  .h3 {
+    @apply font-bold uppercase leading-none break-words text-2xl sm:text-3xl lg:text-3.5xl 2xl:text-4xl text-shadow;
+  }
+  .h4 {
+    @apply font-exo font-semibold uppercase leading-none break-words text-base lg:text-lg xl:text-xl text-shadow;
+  }
+
+  .text-shadow {
+    text-shadow: #888 0 0 2px;
+  }
+
+  .line-clamp {
+    display: -moz-box;
+    display: -webkit-box;
+    box-orient: vertical;
+    -moz-box-orient: vertical;
+    -webkit-box-orient: vertical;
+    line-clamp: 3;
+    -webkit-line-clamp: 3;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+}
+
+::-moz-selection {
+  color: #ffffff;
+  background: #9cbad2;
+}
+
+::selection {
+  color: #ffffff;
+  background: #9cbad2;
+}
+
+::-webkit-scrollbar {
+  width: 16px;
+  background-color: rgb(0, 0, 0);
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgb(0, 0, 0);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(200, 200, 200);
+  border: 4px solid rgb(0, 0, 0);
+  border-radius: 10px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #000000;
+  color: #ffffff;
+  width: 100%;
+  height: 100%;
+  line-height: 140%;
+  letter-spacing: 0.04rem;
+  overflow-x: hidden;
+}
+
+button {
+  letter-spacing: inherit;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+/* 
+  ANIMATE
+*/
+
+.animate {
+  visibility: hidden;
+  opacity: 0;
+  transition-property: visibility, opacity, transform;
+  transition-duration: 1s;
+  transition-delay: 0.1s;
+}
+
+.animate[data-animate-fly='top'] {
+  transform: translateY(50px);
+}
+
+.animate[data-animate-fly='bottom'] {
+  transform: translateY(-50px);
+}
+
+.animate[data-animate-fly='left'] {
+  transform: translateX(50px);
+}
+
+.animate[data-animate-fly='right'] {
+  transform: translateX(-50px);
+}

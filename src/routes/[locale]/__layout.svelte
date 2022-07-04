@@ -1,0 +1,101 @@
+<script context="module">
+	import {
+		currentLang,
+		localeStore,
+		languageStore,
+		mainMenuStore,
+		sideMenuStore,
+		shopLinkStore
+	} from '../../store';
+
+	export async function load({ url, params, fetch }) {
+		const apiUrl = import.meta.env.VITE_API_URL + ':' + import.meta.env.VITE_SRV_PORT;
+		// get languages
+		const langsURL = `${apiUrl}/api/language`;
+		const langsRes = await fetch(langsURL);
+		const langsData = await langsRes.json();
+		// get locales fields
+		const localesURL = `${apiUrl}/api/localez?locale=${params.locale}&populate[0]=Route`;
+		const localesRes = await fetch(localesURL);
+		const localesData = await localesRes.json();
+		// get main menu links
+		const mainMenuURL = `${apiUrl}/api/routers/${params.locale === 'ru' ? 1 : 2}?populate[0]=Route`;
+		const mainMenuRes = await fetch(mainMenuURL);
+		const mainMenuData = await mainMenuRes.json();
+		// get side menu links
+		const sideMenuURL = `${apiUrl}/api/routers/${params.locale === 'ru' ? 3 : 4}?populate[0]=Route`;
+		const sideMenuRes = await fetch(sideMenuURL);
+		const sideMenuData = await sideMenuRes.json();
+		// get shop menu link
+		const shopURL = `${apiUrl}/api/routers/${params.locale === 'ru' ? 5 : 6}?populate[0]=Route`;
+		const shopRes = await fetch(shopURL);
+		const shopData = await shopRes.json();
+
+		// set current language
+		currentLang.set(params.locale || 'ru');
+
+		// set languages list
+		if (langsRes.ok) {
+			const arr = Object.values(langsData.data.attributes);
+			languageStore.set(arr);
+		} else {
+      languageStore.set('');
+    }
+
+		// set locales fields
+		if (localesRes.ok) {
+			localeStore.set(localesData.data.attributes);
+		} else {
+      localeStore.set('');
+    }
+
+		// set main menu links
+		if (mainMenuRes.ok) {
+			mainMenuStore.set(mainMenuData.data.attributes.Route);
+		} else {
+      mainMenuStore.set('');
+    }
+
+		// set side menu links
+		if (sideMenuRes.ok) {
+			sideMenuStore.set(sideMenuData.data.attributes.Route);
+		} else {
+      sideMenuStore.set('');
+    }
+
+		// set shop link
+		if (shopRes.ok) {
+			shopLinkStore.set(shopData.data.attributes.Route);
+		} else {
+      shopLinkStore.set('');
+    }
+
+		return {
+			props: {
+				url
+			}
+		};
+	}
+</script>
+
+<script>
+	// components
+	import Header from '../../components/Header.svelte';
+	import Footer from '../../components/Footer.svelte';
+	// styles
+	import '../../app.css';
+
+	export let url;
+</script>
+
+<Header {url} />
+<main>
+	<slot />
+</main>
+<Footer />
+
+<style>
+	main {
+		flex: 1 0 auto;
+	}
+</style>
