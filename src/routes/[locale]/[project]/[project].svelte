@@ -90,7 +90,7 @@
 	{#if projectData.hero_video}
 		<div
 			class="absolute z-[1] w-full h-full bg-no-repeat bg-cover bg-center pointer-events-none animate"
-			style="background-image: url(https://i.ibb.co/tqpG1HH/shadow.png);"
+			style="background: radial-gradient(circle at 50% -25%, transparent, #000000);"
 		/>
 		<video
 			class="absolute w-full h-full object-cover"
