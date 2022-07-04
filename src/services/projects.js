@@ -46,7 +46,7 @@ export const getOneProject = async (params, fetch, id) => {
           title
           description
           quote
-          video_id
+          playlist_id
           hero_video
           bg_hero
           bg_spec
