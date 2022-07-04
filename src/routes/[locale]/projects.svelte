@@ -56,7 +56,7 @@
 				<a
 					class="group hidden sm:flex items-center mb-7 max-w-fit uppercase animate"
 					data-animate-fly="right"
-					href={project.video_url}
+					href={project.webcast}
 					target="_blank"
 					rel="nofollow noopener noreferrer"
 				>

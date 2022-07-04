@@ -5,7 +5,7 @@
 	export async function load({ params, fetch }) {
 		const data = await getOneProject(params, fetch, params.project).then(async (data) => {
 			const options = {
-				playlistId: data.video_id
+				playlistId: data.playlist_id
 			};
 			return {
 				projectData: data,
@@ -64,7 +64,7 @@
 		loading = true;
 		const options = {
 			page: nextPage,
-			playlistId: projectData.video_id
+			playlistId: projectData.playlist_id
 		};
 		const newVideo = await getYoutubeVideos(options);
 		loading = false;
@@ -331,7 +331,7 @@
 							{#each videosData.data as item}
 								<div
 									class="group relative cursor-pointer"
-									on:click={() => openModal(item.video_id, item.title)}
+									on:click={() => openModal(item.playlist_id, item.title)}
 									in:fade={{ delay: 300, duration: 300 }}
 									out:fade={{ duration: 300 }}
 								>

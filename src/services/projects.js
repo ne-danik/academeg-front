@@ -4,7 +4,7 @@ import {
 
 export const getAllProjects = async (params, fetch) => {
   const query = `query Projects {
-    projects(locale: "${params.locale}") {
+    projects(locale: "${params.locale}", sort: ["serial_num:asc"], pagination: { pageSize: 20 }) {
       data{
         id
         attributes{
@@ -12,7 +12,8 @@ export const getAllProjects = async (params, fetch) => {
           short_description
           bg_preview
           slider
-          video_url
+          webcast
+          serial_num
         }
       }
     }
@@ -27,7 +28,7 @@ export const getAllProjects = async (params, fetch) => {
       id: data.id,
       title: attr.title || '',
       short_description: attr.short_description || '',
-      video_url: attr.video_url || '',
+      webcast: attr.webcast || '',
       bg_preview: attr.bg_preview || '',
       slider: attr.slider?.split(/\n/) || ''
     }
