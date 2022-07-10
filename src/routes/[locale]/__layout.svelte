@@ -8,6 +8,8 @@
 		shopLinkStore
 	} from '../../store';
 
+	import { getMenuLinks } from '../../services/menuLinks';
+
 	export async function load({ url, params, fetch }) {
 		const apiUrl = import.meta.env.VITE_API_URL;
 		// get languages
@@ -19,17 +21,11 @@
 		const localesData = await fetch(localesURL).then((res) => res.json());
 		//const localesData = await localesRes.json();
 		// get main menu links
-		const mainMenuURL = `${apiUrl}/api/routers/${params.locale === 'ru' ? 1 : 2}?populate[0]=Route`;
-		const mainMenuData = await fetch(mainMenuURL).then((res) => res.json());
-		//const mainMenuData = await mainMenuRes.json();
+    const mainMenuLinks = await getMenuLinks(params, fetch, 'main_menu');
 		// get side menu links
-		const sideMenuURL = `${apiUrl}/api/routers/${params.locale === 'ru' ? 3 : 4}?populate[0]=Route`;
-		const sideMenuData = await fetch(sideMenuURL).then((res) => res.json());
-		//const sideMenuData = await sideMenuRes.json();
+    const sideMenuLinks = await getMenuLinks(params, fetch, 'side_menu');
 		// get shop menu link
-		const shopURL = `${apiUrl}/api/routers/${params.locale === 'ru' ? 5 : 6}?populate[0]=Route`;
-		const shopData = await fetch(shopURL).then((res) => res.json());
-		//const shopData = await shopRes.json();
+		const shopLink = await getMenuLinks(params, fetch, 'shop');
 
 		// set current language
 		currentLang.set(params.locale || 'ru');
@@ -42,13 +38,13 @@
 		localeStore.set(localesData?.data?.attributes || '');
 
 		// set main menu links
-		mainMenuStore.set(mainMenuData?.data?.attributes?.Route || '');
+		mainMenuStore.set(mainMenuLinks || '');
 
 		// set side menu links
-		sideMenuStore.set(sideMenuData?.data?.attributes?.Route || '');
+		sideMenuStore.set(sideMenuLinks || '');
 
 		// set shop link
-		shopLinkStore.set(shopData?.data?.attributes?.Route || '');
+		shopLinkStore.set(shopLink || '');
 
 		return {
 			props: {

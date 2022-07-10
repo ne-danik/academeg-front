@@ -26,9 +26,11 @@
 	import '@splidejs/svelte-splide/css/core';
 	import '../../assets/styles/slider.scss';
 
+  import thumb from '../../assets/static/images/thumb.svg';
+
 	export let locale;
 	export let projectsData;
-  
+
 	onMount(() => {
 		const animations = document.querySelectorAll('.animate');
 		const section = document.querySelectorAll('[data-entry="background"]');
@@ -117,11 +119,13 @@
 							{#each project.slider as image, i}
 								<SplideSlide>
 									<img
-										src=""
-										alt="{project.title}: image {i + 1}"
+										src={thumb}
+                    alt="{project.title}: image {i + 1}"
 										data-src={image}
 										data-entry="img"
-										class="w-[36.25rem] h-[8.75rem] object-cover"
+                    width="280"
+                    height="140"
+										class="w-[17.5rem] h-[8.75rem] object-cover"
 									/>
 								</SplideSlide>
 							{/each}

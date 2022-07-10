@@ -33,6 +33,8 @@
 	import ButtonLink from '../../components/ButtonLink.svelte';
 	import Modal from '../../components/Modal.svelte';
 
+  import thumb from '../../assets/static/images/thumb.svg';
+
 	export let locale;
 	export let latestRelease;
 	export let previousVideo;
@@ -40,6 +42,7 @@
 	export let socials;
 
 	let innerHeight = 0;
+	let innerWidth = 0;
 	let scrollY = 0;
 
 	let showModal = false;
@@ -70,22 +73,22 @@
 	<title>AcademeG</title>
 </svelte:head>
 
-<svelte:window bind:innerHeight bind:scrollY />
+<svelte:window bind:innerHeight bind:innerWidth bind:scrollY />
 
 <Section classes="relative h-full overflow-hidden">
 	<div
 		class="absolute w-full h-full bg-no-repeat bg-cover animate"
-		style="background-image: url({latestRelease.preview_url}); background-position-x: center; background-position-y: {scrollY / 4}px;"
+		style="
+      background-image: url({latestRelease.preview_url}); 
+      background-position: 50% {innerWidth >= 768 ? `${scrollY / 4}px` : '50%'};
+    "
 	>
-		<div
-			class="absolute left-0 right-0 bottom-0 w-full bg-gradient-to-t from-black"
-			style="height: {scrollY * 0.04 + 16}rem"
-		/>
+		<div class="absolute left-0 right-0 bottom-0 w-full h-2/3 bg-gradient-to-t from-black"/>
 	</div>
 	<Container classes="h-screen" style="height: {innerHeight / 16}rem;">
 		<div
 			class="absolute left-0 top-1/2 px-4 md:px-12 w-full -translate-y-1/2"
-			style="top: {innerHeight / 2 - scrollY / 4}px;"
+			style="top: {innerWidth >= 768 ? `${innerHeight / 2 - scrollY / 4}px` : '50%' };"
 		>
 			<H4 classes="mb-3 lg:mb-2 animate" data-animate-fly="top">
 				{$localeStore.latest_realese}
@@ -133,7 +136,7 @@
 							class="w-full h-full object-cover select-none pointer-events-none"
 							width="320"
               height="180"
-              src=""
+              src={thumb}
 							alt={item.title}
 							data-src={item.preview_url}
 							data-entry="img"

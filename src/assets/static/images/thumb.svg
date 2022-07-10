@@ -1,0 +1,20 @@
+<svg width="1" height="1" viewBox="0 0 1 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>
+    rect {
+      fill: #222;
+      animation: fade 3s infinite;
+    }
+    @keyframes fade {
+      0% {
+      fill: #222;
+      }
+      30% {
+      fill: #333;
+      }
+      60% {
+      fill: #222;
+      }
+    }
+  </style>
+<rect width="1" height="1" fill="#222"/>
+</svg>

@@ -46,6 +46,7 @@ export const getOneProject = async (params, fetch, id) => {
           title
           description
           quote
+          quote_author
           playlist_id
           hero_video
           bg_hero
@@ -107,6 +108,7 @@ export const getOneProject = async (params, fetch, id) => {
       id: data.id,
       title: attr.title,
       description: attr.description || '',
+      quote_author: attr.quote_author,
       quote: attr.quote,
       playlist_id: attr.playlist_id,
       specifications: {

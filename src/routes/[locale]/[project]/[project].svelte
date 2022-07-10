@@ -89,7 +89,7 @@
 <Section classes="overflow-hidden" style="opacity: {-scrollY / 1000 + 1.2};">
 	{#if projectData.hero_video}
 		<div
-			class="absolute z-[1] w-full h-full bg-no-repeat bg-cover bg-center pointer-events-none animate"
+			class="absolute z-[1] w-full h-full pointer-events-none animate"
 			style="background: radial-gradient(circle at 50% -25%, transparent, #000000);"
 		/>
 		<video
@@ -136,25 +136,26 @@
 			</svg>
 			{$localeStore.back_to_project}
 		</a>
-		<H1 classes="max-w-full md:max-w-[90%] animate" data-animate-fly="bottom"
-			>{projectData.title}</H1
-		>
-		{#if projectData.quote}
-			<q
-				class="w-4/5 md:w-2/3 xl:w-1/2 mt-16 italic whitespace-pre-wrap animate"
+		<H1 classes="max-w-full md:max-w-[90%] animate" data-animate-fly="bottom">
+			{projectData.title}
+		</H1>
+		{#if projectData.quote && projectData.quote_author}
+			<div
+				class="w-4/5 md:w-2/3 xl:w-1/2 mt-16 animate"
 				data-animate-fly="top"
 			>
-				{projectData.quote}
-			</q>
+				<q class="italic whitespace-pre-wrap">{projectData.quote}</q>
+				<p>-{projectData.quote_author}</p>
+			</div>
 		{/if}
 	</Container>
 </Section>
 
 <Section>
 	<Container>
-		<H3 classes="mb-8 md:mb-10 lg:mb-12 animate" data-animate-fly="top"
-			>{$localeStore.description}</H3
-		>
+		<H3 classes="mb-8 md:mb-10 lg:mb-12 animate" data-animate-fly="top">
+			{$localeStore.description}
+		</H3>
 		<p class="w-full lg:w-2/3 whitespace-pre-wrap animate" data-animate-fly="top">
 			{projectData.description}
 		</p>
@@ -310,7 +311,9 @@
 
 <Section>
 	<Container>
-		<H3 classes="mb-8 md:mb-10 lg:mb-12 animate" data-animate-fly="top">{$localeStore.gallery}</H3>
+		<H3 classes="mb-8 md:mb-10 lg:mb-12 animate" data-animate-fly="top">
+			{$localeStore.gallery}
+		</H3>
 		<div class="animate" data-animate-fly="top">
 			<Tabs>
 				<TabList>
@@ -340,8 +343,8 @@
 											class="w-full h-full object-cover select-none pointer-events-none"
 											src={item.thumbnail}
 											alt={item.title}
-                      width="400"
-                      height="225"
+											width="400"
+											height="225"
 										/>
 										<div
 											class="absolute z-[2] top-0 left-0 riCht-0 bottom-0 w-full h-full flex items-center justify-center"
@@ -375,13 +378,13 @@
 					</Grid>
 					{#if videosData.nextPage}
 						<div class="mt-12 text-center animate" data-animate-fly="top">
-							<Button on:click={() => loadMore(videosData.nextPage)} disabled={loading}>
-								{#if loading}
-									<Spinner />
-								{:else}
+							{#if loading}
+								<Spinner />
+							{:else}
+								<Button on:click={() => loadMore(videosData.nextPage)}>
 									{$localeStore.load_more}
-								{/if}
-							</Button>
+								</Button>
+							{/if}
 						</div>
 					{/if}
 				</TabPanel>
